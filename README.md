@@ -16,6 +16,8 @@ Para ello simplemente cargaríamos el data de la carpeta models ( o donde se qui
 ## Componentes y props
 Alert: Componente de alerta que se reutiliza en la aplicación
 - Props:
+
+
 | Prop     | Type      | Description     | Default |
 | ------------- | ------------- | -------- | -------- |
 | type          | String         | Tipo de alert de element plus  | 'error' |
@@ -24,6 +26,8 @@ Alert: Componente de alerta que se reutiliza en la aplicación
 
 Dialog: Componente de diálogo (o popup) que se reutiliza en la aplicación
 - Props:
+
+
 | Prop     | Type      | Description     | Default |
 | ------------- | ------------- | -------- | -------- |
 | dialogVisible          | Boolean         | Indica si el diálogo o popup está visible  | false |
