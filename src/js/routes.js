@@ -1,10 +1,10 @@
-import UsersPage from "@/pages/Users/index.vue";
-import { createRouter, createWebHistory } from "vue-router";
+import UsersPage from '@/pages/Users/index.vue';
+import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
   {
-    path: "/",
-    name: "HomePage",
+    path: '/',
+    name: 'UsersPage',
     component: UsersPage,
   },
 ];
