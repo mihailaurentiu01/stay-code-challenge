@@ -21,4 +21,5 @@ export default {
   successUserDeleted: 'User deleted successfully!',
   successUserAdded: 'User added successfully!',
   newUser: 'New user',
+  create: 'Create',
 };

@@ -23,9 +23,9 @@
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="onSubmit(formRef)"
-              >Create</el-button
-            >
+            <el-button type="primary" @click="onSubmit(formRef)">{{
+              $t('create')
+            }}</el-button>
           </el-form-item>
         </el-form>
 
