@@ -12,6 +12,15 @@ Incluye:
 
 Para ello simplemente cargaríamos el data de la carpeta models ( o donde se quiera guardar el mockup de los datos) y lo sustituiriamos por la respuesta de la api. En el caso de que falle la request se puede hacer en el control de errores un fallback para que el array de datos siempre tenga algo. Luego, manejando distintos status que devuelva la API, se puede cargar el mockup en vez de la respuesta de la api.
 
+
+## Componentes y props
+Alert
+# Props
+These are the props of the SelectBox component:
+| Prop     | Type      | Description     | Default |
+| ------------- | ------------- | -------- | -------- |
+| type          | String         | Tipo de alert de element plus  | 'error' |
+| title           | String         | El título de la alerta. Debe ser una traducción disponible en el diccionario | errors.default |
 ## Project Setup
 
 ```sh
