@@ -33,6 +33,20 @@ Dialog: Componente de diálogo (o popup) que se reutiliza en la aplicación
 | dialogVisible          | Boolean         | Indica si el diálogo o popup está visible  | false |
 | title           | String         | El título del diálogo o popup | ''
 
+NOTA: Este componente cuenta con un slot "content" para introducir el contenido del mismo.
+
+UsersTable: Componente de Tabla de usuarios
+- Props:
+
+
+| Prop     | Type      | Description     | Default |
+| ------------- | ------------- | -------- | -------- |
+| dataSource          | Array         | El origen de datos de la tabla  | [] |
+| enableDetails           | Boolean         | Habilita o deshabilita el botón de detalles | true
+| enableDelete           | Boolean         | Habilita o deshabilita el botón de borrar | true
+
+
+La aplicación además cuenta con unos helpers (o funciones de ayuda) que se reutilizan a lo largo de la aplicación.
 ## Project Setup
 
 ```sh
