@@ -14,13 +14,20 @@ Para ello simplemente cargaríamos el data de la carpeta models ( o donde se qui
 
 
 ## Componentes y props
-Alert
-# Props
-These are the props of the SelectBox component:
+Alert: Componente de alerta que se reutiliza en la aplicación
+- Props:
 | Prop     | Type      | Description     | Default |
 | ------------- | ------------- | -------- | -------- |
 | type          | String         | Tipo de alert de element plus  | 'error' |
 | title           | String         | El título de la alerta. Debe ser una traducción disponible en el diccionario | errors.default |
+
+Dialog: Componente de diálogo (o popup) que se reutiliza en la aplicación
+- Props:
+| Prop     | Type      | Description     | Default |
+| ------------- | ------------- | -------- | -------- |
+| dialogVisible          | Boolean         | Indica si el diálogo o popup está visible  | false |
+| title           | String         | El título del diálogo o popup | ''
+
 ## Project Setup
 
 ```sh
