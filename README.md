@@ -21,6 +21,7 @@ Alert: Componente de alerta que se reutiliza en la aplicación
 | type          | String         | Tipo de alert de element plus  | 'error' |
 | title           | String         | El título de la alerta. Debe ser una traducción disponible en el diccionario | errors.default |
 
+
 Dialog: Componente de diálogo (o popup) que se reutiliza en la aplicación
 - Props:
 | Prop     | Type      | Description     | Default |
